@@ -5,9 +5,9 @@
 		<title>标题栏</title>
 		<meta charset="utf-8">
 	</head>
-	<body BGCOLOR = yellow>
+	<body BGCOLOR = black>
 		<%@ include file = "leader.html" %>
-		<h1>这是页面1</h1>
+		<h1 style="color:white;">这是页面2</h1>
 		
 	</body>
 </html>
