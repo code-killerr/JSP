@@ -6,9 +6,11 @@
 		<title>╤ах║нд╪Ч</title>
 	</head>
 	<body bgcolor=red>
-	<p align="center" size="10px">will read something in here<p>
+	<h1 align="center">will read something in here<h1>
+	<h2>
 	<%
-		File f= new File("1.txt");
+		String s= request.getParameter("file");
+		File f= new File(s);
 		if(f.exists()){
 			FileReader in = new FileReader(f);
 			BufferedReader bIn = new BufferedReader(in);
@@ -25,5 +27,6 @@
 			<%
 		}
 		%>
+		</h2>
 	</body>
 </html>

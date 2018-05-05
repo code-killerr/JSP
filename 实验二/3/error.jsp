@@ -7,7 +7,7 @@
 	<body>
 		<h1>
 			<%
-				String s=request.getParameter(¡°mess¡±);
+				String s=request.getParameter("mess");
 				out.println("<BR>the message is:"+s);
 			%>
 		</h1>
