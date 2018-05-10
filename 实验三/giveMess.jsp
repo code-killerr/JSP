@@ -1,14 +1,14 @@
-<%@ page contentType = "text/html;charset=GB2312" %>
-<%@ taglib tagdir="/WEB-INF/tags" prefix="ok" %><!--ÉèÖÃtagÎÄ¼þÂ·¾¶ÒÔ¼°prefixµ÷ÓÃtagÎÄ¼þÊ¹ÓÃµÄµÄÇ°×º-->
+ï»¿<%@ page contentType = "text/html;charset=utf-8" %>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="OK" %><!--è®¾ç½®tagæ–‡ä»¶è·¯å¾„ä»¥åŠprefixè°ƒç”¨tagæ–‡ä»¶ä½¿ç”¨çš„çš„å‰ç¼€-->
 <html>
 	<body>
 	<table>
-		<ok:handleMess>
+		<OK:handleMess>
 			hello JSP
-		</ok:handleMess>
-		<ok:handleMess>
-			hello world
-		</ok:handleMess>
+		</OK:handleMess>
+		<OK:handleMess>
+			hello world	
+		</OK:handleMess>
 	</table>
 	</body>
 </html>
